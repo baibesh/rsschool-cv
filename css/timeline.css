@@ -1,0 +1,109 @@
+.timeline {
+    margin-bottom: 30px;
+}
+
+.timeline-second-style .timeline-item {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    padding-bottom: 15px
+}
+
+.timeline-second-style .timeline-item:last-child {
+    padding-bottom: 0
+}
+
+.timeline-second-style .left-part {
+    width: 30%;
+    display: table-cell;
+    padding-right: 25px;
+    min-height: 100%;
+    text-align: right;
+    vertical-align: top
+}
+
+.timeline-second-style .right-part {
+    width: 70%;
+    display: table-cell;
+    padding-left: 25px;
+    padding-right: 15px;
+    vertical-align: top
+}
+
+.timeline-second-style .right-part p,.timeline-second-style .right-part p>* {
+    font-size: .92em
+}
+
+.timeline-second-style .divider {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    bottom: 0;
+    width: 1px;
+    background-color: #444;
+    margin: 0;
+}
+
+.timeline-second-style .divider:before {
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 4px;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    margin-left: -8px;
+    border-radius: 10px;
+    background-color: #fca072;
+    opacity: .25;
+    z-index: 0
+}
+
+.timeline-second-style .divider:after {
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    width: 9px;
+    height: 9px;
+    margin-left: -4px;
+    background-color: #222;
+    border-radius: 5px;
+    border: 2px solid #fca072;
+    z-index: 1
+}
+
+.timeline-second-style .item-title {
+    font-size: 16px;
+    margin-bottom: 3px
+}
+
+.timeline-second-style .item-period {
+    color: #aaa;
+    margin: 3px 0;
+    font-size: 14px;
+    line-height: 1.4em
+}
+
+.timeline-second-style .item-company {
+    display: block;
+    margin: 0 0 4px;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.45em;
+    color: #a5a6a7
+}
+
+.timeline-second-style .timeline-item:last-child .right-part {
+    padding-bottom: 0
+}
+
+.timeline-second-style .item-logo {
+    display: block;
+    margin-bottom: 10px
+}
+
+.timeline-second-style .item-logo img {
+    max-height: 40px
+}

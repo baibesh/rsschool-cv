@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "reset.css";
+@import "content.css";
+@import "header.css";
+@import "animate.css";
+@import "timeline.css";
+
+body {
+    background: #fca072;
+    height: 100%;
+    font-size: 15px;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* background image - задний фон */
+#bg_img {
+    background-image: url('/img/bg.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: -28px;
+    left: -28px;
+    right: -28px;
+    bottom: -28px;
+    z-index: 1;
+}
+
+.cv {
+    position: relative;
+    display: flex;
+    max-width: 1280px;
+    min-height: 80vh;
+    max-height: 80vh;
+    margin: 10vh auto;
+    background: #444444;
+    border-radius: 20px;
+    /*z-index: 999;*/
+}
+
+
