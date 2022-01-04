@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>CV</title>
+</head>
+<body>
+<div id="bg_img"></div>
+<div class="cv">
+    <!-- start header -->
+    <div class="header">
+        <div class="header-content animate__animated animate__bounce animate__delay-2s">
+            <div class="header-photo">
+                <img src="img/avatar.jpeg" alt="Alex Smith">
+            </div>
+            <div class="header-titles">
+                <h2>Mukhtarkhan Baibesh</h2>
+                <h4>Web Developer</h4>
+            </div>
+        </div>
+        <ul class="main-menu">
+            <li>
+                <a id="homeNav" class="nav-anim" onclick="switchContent('home')">
+                    <span class="menu-icon lnr lnr-home"></span>
+                    <span class="link-text">Home</span>
+                </a>
+            </li>
+            <li>
+                <a id="aboutNav" class="nav-anim" onclick="switchContent('about')">
+                    <span class="menu-icon lnr lnr-user"></span>
+                    <span class="link-text">About Me</span>
+                </a>
+            </li>
+            <li>
+                <a id="resumeNav" class="nav-anim" onclick="switchContent('resume')">
+                    <span class="menu-icon lnr lnr-graduation-hat"></span>
+                    <span class="link-text">Resume</span>
+                </a>
+            </li>
+            <li>
+                <a id="portfolioNav" class="nav-anim" onclick="switchContent('portfolio')">
+                    <span class="menu-icon lnr lnr-briefcase"></span>
+                    <span class="link-text">Portfolio</span>
+                </a>
+            </li>
+            <li>
+                <a id="contactNav" class="nav-anim" onclick="switchContent('contact')">
+                    <span class="menu-icon lnr lnr-envelope"></span>
+                    <span class="link-text">Contact</span>
+                </a>
+            </li>
+        </ul>
+        <div class="social-links">
+            <ul>
+                <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- end header -->
+
+    <!-- start content -->
+    <div class="content">
+        <div id="root" class="container"></div>
+    </div>
+    <!-- end content -->
+</div>
+<script src="script.js"></script>
+</body>
+</html>
